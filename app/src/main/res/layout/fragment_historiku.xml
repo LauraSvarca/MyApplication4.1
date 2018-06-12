@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/MyPager"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+<android.support.design.widget.TabLayout
+    android:layout_width="match_parent"
+    android:id="@+id/MyTabs"
+    app:tabGravity="center"
+    app:tabMode="fixed"
+    app:tabIndicatorColor="@color/green"
+    app:tabSelectedTextColor="@color/colorPrimary"
+    android:layout_height="?attr/actionBarSize">
+
+    <android.support.design.widget.TabItem
+        android:id="@+id/FaqeNje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015" />
+
+    <android.support.design.widget.TabItem
+        android:id="@+id/historiku_faqe2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016" />
+
+    <android.support.design.widget.TabItem
+        android:id="@+id/historiku_faqe3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017" />
+</android.support.design.widget.TabLayout>
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Historiku mbi Testin e Matures" />
+
+</android.support.v4.view.ViewPager>
